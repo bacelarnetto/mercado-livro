@@ -1,4 +1,4 @@
 
-# API SPRING BOOT MERCADO LIVRO - mercado-livro
+# API SPRING BOOT MERCADO LIVRO
 CURSO DE KOTLIN UDEMY<br/>
 Projeto spring boot com kotlin<br/>
