@@ -1,8 +1,16 @@
 package com.mercadolivro.controller
 
+import com.mercadolivro.model.CustomerModel
+import org.springframework.web.bind.annotation.GetMapping
+import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-class CustomerController{
+@RequestMapping("/customer")
+class CustomerController {
 
+    @GetMapping
+    fun get(): CustomerModel {
+        return CustomerModel("1", "jose", "jose@email.com")
+    }
 }
